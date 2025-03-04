@@ -7,6 +7,7 @@ WORKDIR /app
 # Copia los archivos necesarios
 COPY requirements.txt .
 COPY app.py .
+COPY search.html .
 
 # Instala las dependencias
 RUN pip install --no-cache-dir -r requirements.txt
