@@ -11,7 +11,7 @@ collection = db['ecommerce']  # Colección
 # Ruta principal para mostrar la página de búsqueda
 @app.route('/')
 def index():
-    return render_template('search.html')
+    return render_template('/templates/search.html')
 
 # Ruta para realizar la búsqueda
 @app.route('/search', methods=['GET'])
